@@ -1,10 +1,8 @@
 ---
 layout: post
-title:  "Test 2!"
-author: Urban
+title:  "Test 8!"
 date:   2019-02-04 08:33:34 -0600
-categories: test 2 update
-tags: tag1
+categories: test
 visible: false
 published: true
 ---
