@@ -42,7 +42,7 @@ paginate: nil
 paginate_path: nil
 
 paginate: 2
-paginate_path: "/blog/page:num/"
+paginate_path: "/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
