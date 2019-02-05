@@ -130,6 +130,25 @@ header h2 {
   list-style-image: url(../images/terminal.png)!important;
 }
 
+.title_blog{
+  font-size: 20px;
+}
+
+.title_in_blog{
+  font-size: 20px;
+  color: #b5e853;
+}
+
+.name_author{
+  font-size: 12px;
+  color: #828282;
+}
+
+.date_post{
+  font-size: 12px;
+  color: #828282;
+}
+
 .category_title{
   font-size: 14px;
 }
