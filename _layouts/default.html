@@ -40,20 +40,20 @@
                 </div>
                 <div class="col span_2_of_2">
 
-                    <p>Categories</p>
+                    <p>Por categorías</p>
 
                     {% for category in site.categories %}
 
-                    <h3>{{ category[0] }}</h3>
-                    <ul>
+                    <p class="category_title">{{ category[0] }}</p>
+                    <ul class="ul_category">
                         {% for post in category[1] %}
-                        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                        <li class="li_deco_off"><a href="{{ post.url }}">{{ post.title }}</a></li>
                         {% endfor %}
                     </ul>
 
                     {% endfor %}
 
-                    <p>Tags</p>
+                    <!-- <p>Par tag</p>
 
                     {% for tag in site.tags %}
 
@@ -64,7 +64,7 @@
                         {% endfor %}
                     </ul>
 
-                    {% endfor %}
+                    {% endfor %} -->
 
                 </div>
             </div>

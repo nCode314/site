@@ -109,8 +109,29 @@ header h2 {
   text-align: center;
   margin: 0; }
 
+.post_title{
+  font-size: 14px;
+}
+
+.post_date{
+  font-size: 10px;
+}
+
 .rss-subscribe{
   padding-left: 92px;
+}
+
+.ul_category{
+  font-size: 14px;
+}
+
+.li_deco_off{
+  list-style-type: none!important;
+  list-style-image: url(../images/terminal.png)!important;
+}
+
+.category_title{
+  font-size: 14px;
 }
 
 /*  SECTIONS  */

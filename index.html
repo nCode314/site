@@ -1,6 +1,7 @@
 ---
 layout: default
-visible: true
+sort_field: 'title'
+sort_reverse: false
 ---
 
 <h1>My blog</h1>
@@ -12,11 +13,11 @@ visible: true
     -->
     {% for post in paginator.posts %}
     <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-            <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
+        <p>
+            <a class="post-link post_title" href="{{ post.url | relative_url }}">{{ post.title | capitalize
+                }}</a>
+            <span class="post-meta post_date">{{ post.date | date: " %-d %b %Y, %r" }}</span>
+        </p>
     </li>
     {% endfor %}
 </ul>
@@ -28,13 +29,14 @@ visible: true
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer
-            Posts</a>
+        <a class="post_title" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr;
+            Recientes</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a class="post_title" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Antiguo
+            &rarr;</a>
     </li>
     {% endif %}
 </ul>
