@@ -25,7 +25,7 @@ I blog on this website about .NET related topics and also curate ASP.NET Weekly,
 I am interested in freelance work requiring C#, .NET Core or ASP.NET Core skills - either as part of an existing team or working solo on a stand-alone project.
 
 ```
-**Technologies I work with:**
+Technologies I work with:
 
 - ASP.NET Core (MVC, Razor Pages and APIs)
 - HTML, JavaScript and CSS
