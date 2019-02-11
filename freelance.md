@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Freelance Stuff
+title: Freelance
 permalink: /freelance/
 ---
 
