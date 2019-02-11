@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Documentation
-permalink: /doc/
+title: Freelance Stuff
+permalink: /freelance/
 ---
 
 Text can be **bold**, _italic_, ~~strikethrough~~ or `keyword`.
