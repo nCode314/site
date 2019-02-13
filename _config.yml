@@ -14,10 +14,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: UrbanCoder
+small_description: dotNet Developer!
 email: urbancoder79@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Desarrollador Asp.Net MVC & Core desde 2010, 
-  Xamarin App (iOS, Android) & Desktop App, Adicto al Resharper & World Of Warcraft.
+  Asp.Net MVC, dotNet Core, Desktop App developer since 2005, 
+  Xamarin App (iOS, Android) developer since 2015 , Addicted to Resharper, 
+  VS CODE, World Of Warcraft & MAC.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: urbancoder79
